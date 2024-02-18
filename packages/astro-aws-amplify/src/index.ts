@@ -72,9 +72,9 @@ export default function amplify(): AstroIntegration {
                 kind: "Compute",
                 src: "default",
               },
-              "fallback": {
-                "kind": "Static"
-              }
+              // fallback: {
+              //   kind: "Static"
+              // }
             },
           ],
           computeResources: [
